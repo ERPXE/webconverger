@@ -1,0 +1,6 @@
+.:
+filelist.txt
+initrd.img
+vmlinuz
+webconverger.menu
+webconverger.png

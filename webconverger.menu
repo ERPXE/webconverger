@@ -1,0 +1,8 @@
+LABEL WEBCONVERGER
+MENU LABEL ^WebConverger Live 12.3
+KERNEL er/plugins/webconverger/vmlinuz
+INITRD er/plugins/webconverger/initrd.img
+APPEND boot=live live-config netboot=nfs nfsroot=10.0.0.1:/tftpboot/er/shares/webconverger/ ramdisk_size=200000 nomodeset config hostname=webconverger
+TEXT HELP
+                 WebConverger Live x32.
+ENDTEXT
